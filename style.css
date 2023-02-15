@@ -1,0 +1,111 @@
+  body {  
+    background-color: #D8D8F6;
+    color: rgb(50,50,50); 
+    font-family: Helvetica;
+    font-size: 18px; 
+    font-weight: 400;
+}
+h1, h2, h3 {
+    font-family: "lora", sans-serif;
+}
+
+h1 {
+    color: #C17C74;
+    font-size: 40px;
+    font-weight: bolder;
+}
+ p {
+ 	color: #66999B;
+ 	font-family: "lora", sans-serif;
+ }
+h2 {
+   color: #C17C74; 
+   font-size: 32px; 
+   font-weight: bold;
+}
+
+h3 {
+    color:#C17C74 ;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h4 {
+	color: #C17C74;
+	font-size: 32px;
+}
+
+h5 {
+	color: #C17C74;
+	font-size: 32px;
+}
+
+a{  
+   text-decoration: none;
+   color: #496A81;
+}
+
+img {
+	border-radius: 50%;
+    width: 200px;
+}
+
+a {
+    color: #496A81;
+    padding: 15px 20px; 
+    font-weight: bold; 
+    border-radius: 5px;
+    font-family: 'Overpass', sans-serif;
+}
+a:hover {
+	background-color: #FAC748;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+	  width: 400px;
+	 }
+}
+
+.card-white {
+	background-color:white;
+    padding: 40px;
+    box-shadow: Opx 10px 30px rgba(0, 0, 0, 0.1);  
+    text-align: center; 
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 10px;
+}   
+
+.list-inline li {
+    display: inline;
+    padding-left: 10px;
+}  
+
+.list-inline i {
+    font-size: 22px;
+}  
+
+.list-inline i: hover{
+    font-size: 20px;
+    color: white;
+}  
